@@ -415,12 +415,23 @@
             "topConceptOf": "conceptscheme:eenhedenrelatie"
         },
         {
+            "id": "concept:tot",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.eenhedenrelatie.tot",
+            "definition": "Binnen het aangegeven interval komt een al dan niet volledige opeenvolging van eenheden voor, vanaf de jongste geselecteerde eenheid bovenaan (Lid 1) tot de oudste geselecteerde eenheid onderaan (Lid 2).",
+            "inScheme": "conceptscheme:eenhedenrelatie",
+            "note": "Binnen het aangegeven interval komt een al dan niet volledige opeenvolging van eenheden voor, vanaf de jongste geselecteerde eenheid bovenaan (Lid 1) tot de oudste geselecteerde eenheid onderaan (Lid 2).",
+            "prefLabel": "tot",
+            "topConceptOf": "conceptscheme:eenhedenrelatie"
+        },
+        {
             "id": "conceptscheme:eenhedenrelatie",
             "type": "skos:ConceptScheme",
             "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.eenhedenrelatie",
             "hasTopConcept": [
                 "concept:en",
-                "concept:of"
+                "concept:of",
+                "concept:tot"
             ],
             "prefLabel": "Lijst van mogelijke relaties tussen eenheden binnen een aangegeven interval"
         }
