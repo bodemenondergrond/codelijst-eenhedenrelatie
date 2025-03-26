@@ -7,15 +7,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>be.vlaanderen.bodemenondergrond.data.id.graph</groupId>
-    <artifactId>codelijst-releatieeenheden</artifactId>
+    <artifactId>codelijst-eenhedenrelatie</artifactId>
     <version>0.1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>codelijst-releatieeenheden</name>
+    <name>codelijst-eenhedenrelatie</name>
 
     <scm>
-        <connection>scm:git:https://github.com/bodemenondergrond/codelijst-releatieeenheden.git</connection>
-        <developerConnection>scm:git:https://github.com/bodemenondergrond/codelijst-releatieeenheden.git</developerConnection>
-        <url>https://github.com/bodemenondergrond/codelijst-releatieeenheden.git</url>
+        <connection>scm:git:https://github.com/bodemenondergrond/codelijst-eenhedenrelatie.git</connection>
+        <developerConnection>scm:git:https://github.com/bodemenondergrond/codelijst-eenhedenrelatie.git</developerConnection>
+        <url>https://github.com/bodemenondergrond/codelijst-eenhedenrelatie.git</url>
         <tag>HEAD</tag>
     </scm>
 
