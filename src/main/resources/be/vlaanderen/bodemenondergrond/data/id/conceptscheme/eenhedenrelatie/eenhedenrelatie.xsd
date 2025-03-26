@@ -4,6 +4,7 @@
     <xs:restriction base="xs:string">
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/en" />
       <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/of" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/tot" />
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>

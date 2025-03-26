@@ -12,11 +12,16 @@
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/of> <http://www.w3.org/2004/02/skos/core#note> "Eén van de geselecteerde eenheden komt voor binnen het aangegeven interval."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/of> <http://www.w3.org/2004/02/skos/core#prefLabel> "of"@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/of> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/eenhedenrelatie> .
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/tot> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept" .
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/tot> <http://www.w3.org/2004/02/skos/core#altLabel> "tot"@nl .
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/tot> <http://www.w3.org/2004/02/skos/core#notation> "eenhedenrelatie.tot" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/tot> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.eenhedenrelatie.tot" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/tot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/tot> <http://www.w3.org/2004/02/skos/core#definition> "Binnen het aangegeven interval komt een al dan niet volledige opeenvolging van eenheden voor, vanaf de jongste geselecteerde eenheid bovenaan (Lid 1) tot de oudste geselecteerde eenheid onderaan (Lid 2)."@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/tot> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/eenhedenrelatie> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/tot> <http://www.w3.org/2004/02/skos/core#note> "Binnen het aangegeven interval komt een al dan niet volledige opeenvolging van eenheden voor, vanaf de jongste geselecteerde eenheid bovenaan (Lid 1) tot de oudste geselecteerde eenheid onderaan (Lid 2)."@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/tot> <http://www.w3.org/2004/02/skos/core#prefLabel> "tot"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/tot> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/eenhedenrelatie> .
 <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/eenhedenrelatie> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.eenhedenrelatie" .
 <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/eenhedenrelatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/eenhedenrelatie> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/en> .
 <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/eenhedenrelatie> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/of> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/eenhedenrelatie> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/tot> .
 <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/eenhedenrelatie> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lijst van mogelijke relaties tussen eenheden binnen een aangegeven interval"@nl .

@@ -68,10 +68,14 @@ concept:of dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.eenhed
     skos:note "Eén van de geselecteerde eenheden komt voor binnen het aangegeven interval."@nl;
     skos:prefLabel "of"@nl;
     skos:topConceptOf conceptscheme:eenhedenrelatie.
-concept:tot dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept";
-    skos:altLabel "tot"@nl;
-    skos:notation "eenhedenrelatie.tot".
+concept:tot dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.eenhedenrelatie.tot";
+    a skos:Concept;
+    skos:definition "Binnen het aangegeven interval komt een al dan niet volledige opeenvolging van eenheden voor, vanaf de jongste geselecteerde eenheid bovenaan (Lid 1) tot de oudste geselecteerde eenheid onderaan (Lid 2)."@nl;
+    skos:inScheme conceptscheme:eenhedenrelatie;
+    skos:note "Binnen het aangegeven interval komt een al dan niet volledige opeenvolging van eenheden voor, vanaf de jongste geselecteerde eenheid bovenaan (Lid 1) tot de oudste geselecteerde eenheid onderaan (Lid 2)."@nl;
+    skos:prefLabel "tot"@nl;
+    skos:topConceptOf conceptscheme:eenhedenrelatie.
 conceptscheme:eenhedenrelatie dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.eenhedenrelatie";
     a skos:ConceptScheme;
-    skos:hasTopConcept concept:en, concept:of;
+    skos:hasTopConcept concept:en, concept:of, concept:tot;
     skos:prefLabel "Lijst van mogelijke relaties tussen eenheden binnen een aangegeven interval"@nl.
