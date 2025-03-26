@@ -1,0 +1,5 @@
+﻿uri;dc.identifier;notation;prefLabel;altLabel;definition;inScheme;topConceptOf
+conceptscheme:eenhedenrelatie;be.vlaanderen.bodemenondergrond.data.id.conceptscheme.eenhedenrelatie;;Lijst van mogelijke relaties tussen eenheden binnen een aangegeven interval;;;;
+concept:en;be.vlaanderen.bodemenondergrond.data.id.concept.eenhedenrelatie.en;;en;;Alle geselecteerde eenheden komen voor binnen het aangegeven interval.;conceptscheme:eenhedenrelatie;conceptscheme:eenhedenrelatie
+concept:of;be.vlaanderen.bodemenondergrond.data.id.concept.eenhedenrelatie.of;;of;;Eén van de geselecteerde eenheden komt voor binnen het aangegeven interval.;conceptscheme:eenhedenrelatie;conceptscheme:eenhedenrelatie
+concept:tot;be.vlaanderen.bodemenondergrond.data.id.concept,eenhedenrelatie.tot;;tot;;Binnen het aangegeven interval komt een al dan niet volledige opeenvolging van eenheden voor, vanaf de jongste geselecteerde eenheid bovenaan (Lid 1) tot de oudste geselecteerde eenheid onderaan (Lid 2).;conceptscheme:eenhedenrelatie;conceptscheme:eenhedenrelatie
