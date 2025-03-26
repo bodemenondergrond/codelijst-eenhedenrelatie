@@ -1,13 +1,13 @@
-types : interpretatietypes
+types : eenhedenrelatie
 skos:
   rules :
     skos_rules : /../node_modules/maven-metadata-generator-npm/src/n3/skos-rules.n3
     dcterms_rules : /../node_modules/maven-metadata-generator-npm/src/n3/dcterms-rules.n3
   prefixes :
-    concept : https://data.bodemenondergrond.vlaanderen.be/id/concept/interpretatietype/
-    collectie : https://data.bodemenondergrond.vlaanderen.be/id/collection/interpretatietype/
+    concept : https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/
+    collectie : https://data.bodemenondergrond.vlaanderen.be/id/collection/eenhedenrelatie/
   path: ./main/resources/be/vlaanderen/bodemenondergrond/data/id/conceptscheme/
-  name: interpretatietype
+  name: eenhedenrelatie
   turtle: .ttl
   jsonld: .jsonld
   xsd: .xsd
@@ -22,7 +22,7 @@ source:
 dcat:
   path_catalog: be/vlaanderen/bodemenondergrond/data/id/catalog/
   path_dataset: be/vlaanderen/bodemenondergrond/data/id/dataset/
-  name: codelijst-interpretatietype
+  name: codelijst-eenhedenrelatie
   dataset_jsonld: dataset.jsonld
   dataset_turtle: dataset.ttl
   catalog_turtle: catalog.ttl
@@ -31,7 +31,7 @@ dcat:
 ap :
   path: ./main/resources/be/vlaanderen/bodemenondergrond/data/id/ontology/
   type: ap-constraints
-  name: interpretatietype
+  name: eenhedenrelatie
   turtle: .ttl
 
 metadata :
@@ -51,7 +51,7 @@ metadata :
       - http://www.w3.org/ns/formats/SPARQL_Results_JSON
     supportedLanguage: http://www.w3.org/ns/sparql-service-description#SPARQL10Query
   all :
-    accessURL : https://github.com/bodemenondergrond/codelijst-interpretatietype.git
+    accessURL : https://github.com/bodemenondergrond/codelijst-eenhedenrelatie.git
     contactPoint : https://data.omgeving.vlaanderen.be/id/vcard/helpdesk
     license : http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0
     publisher : http://data.vlaanderen.be/id/organisatie/OVO003323

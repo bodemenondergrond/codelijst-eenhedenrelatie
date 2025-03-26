@@ -2,8 +2,8 @@
 version: 2
 plan:
   project-key: DOV
-  key: DOVRELATIEEENHEDEN
-  name: codelijst-relatieeenheden
+  key: DOVEENHEDENRELATIE
+  name: codelijst-eenhedenrelatie
 
 triggers:
   - polling: 130
@@ -71,7 +71,7 @@ Release:
 ---
 version: 2
 plan:
-  key: DOV-DOVRELATIEEENHEDEN
+  key: DOV-DOVEENHEDENRELATIE
 
 plan-permissions:
   - groups:

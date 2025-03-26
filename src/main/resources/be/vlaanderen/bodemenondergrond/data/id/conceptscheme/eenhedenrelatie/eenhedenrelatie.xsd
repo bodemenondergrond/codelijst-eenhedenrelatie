@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:be.vlaanderen.bodemenondergrond.data.id.graph:codelijst-eenhedenrelatie">
+  <xs:simpleType name="be.vlaanderen.bodemenondergrond.data.id.conceptscheme.eenhedenrelatie">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/en" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/of" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,22 @@
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/en> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.eenhedenrelatie.en" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/en> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/en> <http://www.w3.org/2004/02/skos/core#definition> "Alle geselecteerde eenheden komen voor binnen het aangegeven interval."@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/en> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/eenhedenrelatie> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/en> <http://www.w3.org/2004/02/skos/core#note> "Alle geselecteerde eenheden komen voor binnen het aangegeven interval."@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/en> <http://www.w3.org/2004/02/skos/core#prefLabel> "en"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/en> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/eenhedenrelatie> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/of> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.eenhedenrelatie.of" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/of> <http://www.w3.org/2004/02/skos/core#definition> "Eén van de geselecteerde eenheden komt voor binnen het aangegeven interval."@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/of> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/eenhedenrelatie> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/of> <http://www.w3.org/2004/02/skos/core#note> "Eén van de geselecteerde eenheden komt voor binnen het aangegeven interval."@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/of> <http://www.w3.org/2004/02/skos/core#prefLabel> "of"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/of> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/eenhedenrelatie> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/tot> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/tot> <http://www.w3.org/2004/02/skos/core#altLabel> "tot"@nl .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/tot> <http://www.w3.org/2004/02/skos/core#notation> "eenhedenrelatie.tot" .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/eenhedenrelatie> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.eenhedenrelatie" .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/eenhedenrelatie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/eenhedenrelatie> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/en> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/eenhedenrelatie> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://data.bodemenondergrond.vlaanderen.be/id/concept/eenhedenrelatie/of> .
+<https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/eenhedenrelatie> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lijst van mogelijke relaties tussen eenheden binnen een aangegeven interval"@nl .
