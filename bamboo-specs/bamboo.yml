@@ -85,3 +85,10 @@ plan-permissions:
       - build
       - clone
       - admin
+  - groups:
+    roles:
+      - logged-in
+    permissions:
+      - view
+      - build
+    
