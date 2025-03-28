@@ -77,7 +77,6 @@ plan-permissions:
   - groups:
       - bamboo-admin
       - bamboo-release
-      - developer-admin
       - dov-admin
     permissions:
       - view
@@ -86,6 +85,7 @@ plan-permissions:
       - clone
       - admin
   - groups:
+      - developer-admin
     roles:
       - logged-in
     permissions:
