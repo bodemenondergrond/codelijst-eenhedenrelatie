@@ -52,20 +52,17 @@ metadata :
     supportedLanguage: http://www.w3.org/ns/sparql-service-description#SPARQL10Query
   all :
     accessURL : https://github.com/bodemenondergrond/codelijst-eenhedenrelatie.git
-    contactPoint : https://data.omgeving.vlaanderen.be/id/vcard/helpdesk
+    contactPoint : https://dov.vlaanderen.be/contact
     license : http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0
-    publisher : http://data.vlaanderen.be/id/organisatie/OVO003323
-    rightsHolder :  http://data.vlaanderen.be/id/organisatie/OVO003749
+    publisher : http://data.vlaanderen.be/id/organisatie/OVO027735
+    rightsHolder :  http://data.vlaanderen.be/id/organisatie/OVO027735
     theme :
-      - http://eurovoc.europa.eu/2407
-      - http://publications.europa.eu/resource/authority/data-theme/ENVI
-      - http://vocab.belgif.be/auth/datatheme/ENVI
-      - http://www.eionet.europa.eu/gemet/concept/10087
+      - https://www.eionet.europa.eu/gemet/nl/concept/3650
     spatial :
       - http://publications.europa.eu/resource/authority/country/BEL
       - https://sws.geonames.org/3337388/
     accessRights :  http://publications.europa.eu/resource/authority/access-right/PUBLIC
-    accrualPeriodicity : http://publications.europa.eu/resource/authority/frequency/IRREG
+    accrualPeriodicity : http://publications.europa.eu/resource/authority/frequency/AS_NEEDED
     dct.language : http://publications.europa.eu/resource/authority/language/NLD
     landingPage  : https://data.bodemenondergrond.vlaanderen.be/doc/catalog/codelijst.html
   catalog :
